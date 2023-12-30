@@ -1,0 +1,34 @@
+.cotactContainer{
+    background-color: rgb(194, 202, 202);
+
+    padding: 20px;
+}
+
+.FelxContact{
+    display: flex;
+
+  gap:10px;
+}
+
+.flexmap{
+    flex: 1;
+    background-color: blue;
+}
+
+.flexform{
+    flex: 1;
+    background: red;
+}
+h1{
+    text-align: center;
+    font-size: 80px;
+    font-weight: 500;
+    color: blue;
+}
+
+
+@media  (max-width: 1000px){
+    .FelxContact{
+        flex-direction: column;
+    }
+}
